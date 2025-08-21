@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background: #0b0f12; color: #e8e8e8; }
+a { color: #9ad0ff; text-decoration: none }
+input, select { padding: 10px; border-radius: 10px; border: 1px solid #2a2f36; background: #12171b; color: #e8e8e8; }
+button { padding: 10px 14px; border-radius: 10px; border: none; background: #2563eb; color: white; cursor: pointer; }
+button.ghost { background: #1f2937; }
+.card { background: #0f1418; border: 1px solid #1f2937; border-radius: 16px; padding: 16px; box-shadow: 0 10px 30px rgba(0,0,0,.3); }
+.grid { display: grid; gap: 16px; }
+.row { display: flex; gap: 10px; align-items: center; }
+.space { height: 10px; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 10px; border-bottom: 1px solid #1f2937; text-align: left; }
+th button { background: transparent; border: none; color: #9ad0ff; cursor: pointer; }
