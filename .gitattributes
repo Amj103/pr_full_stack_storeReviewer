@@ -1,0 +1,2 @@
+frontend/public/CursorUserSetup-x64-1.4.5.exe filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
